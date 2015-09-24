@@ -8,4 +8,4 @@ let rows = parser.parse();
 
 const generator = new Generator(rows);
 generator.generate();
-generator.make('./dest/icd.json');
+generator.make('./dist/icd.json');
