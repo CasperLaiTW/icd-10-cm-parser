@@ -31,7 +31,7 @@ export default class generator {
         pedestrian: _.get(this.pedestrian, value[5]),
         pedestrianDetail: _.get(this.pedestrianDetail, value[6]),
         perpetrator: _.get(this.perpetrator, value[7]),
-        accitdentType: _.get(this.accitdentType, value[8]),
+        accidentType: _.get(this.accidentType, value[8]),
         medical: _.get(this.medical, value[9]),
       };
       data = data.add(dest);
@@ -45,7 +45,7 @@ export default class generator {
       pedestrian: this.pedestrian,
       pedestrianDetail: this.pedestrianDetail,
       perpetrator: this.perpetrator,
-      accitdentType: this.accitdentType,
+      accidentType: this.accidentType,
       medical: this.medical,
     }
     fs.writeFile(path, json.stringify(data), (error) => {
@@ -71,7 +71,7 @@ export default class generator {
   }
 
   compileAccidentType() {
-    this.accitdentType = this.compile(8);
+    this.accidentType = this.compile(8);
   }
 
   compileMedical() {
