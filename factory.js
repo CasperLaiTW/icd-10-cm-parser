@@ -9,7 +9,7 @@ export function work() {
   let root = new Map();
   _.each(Modules, (module) => {
     module.make();
-    root = root.set(module.name, module.output);
+    root = root.set(module.title, module.output);
   });
   writeRoot(root);
 }

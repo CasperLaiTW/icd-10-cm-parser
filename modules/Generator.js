@@ -8,9 +8,9 @@ export default class Generator {
 
   static dist = '../dist';
 
-  constructor(file, name, output) {
+  constructor(file, title, output) {
     this.file = file;
-    this.name = name;
+    this.title = title;
     this.output = output;
     this.rows = this.getRows();
   }

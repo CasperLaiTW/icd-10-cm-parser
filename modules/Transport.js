@@ -7,10 +7,10 @@ class Transport extends Generator {
 
   static file = path.join(__dirname, '../xls/transport.xls');
   static output = 'transport.json';
-  static name = '運輸事故';
+  static title = '運輸事故';
 
   constructor() {
-    super(Transport.file, Transport.name, Transport.output);
+    super(Transport.file, Transport.title, Transport.output);
     this.generate();
   }
 
