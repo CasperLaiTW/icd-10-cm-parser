@@ -8,7 +8,6 @@ export default class parser {
 
   parse() {
     const obj = Excel.parse(this.filename);
-    obj[0].data.shift();
     return obj[0].data;
   }
 }
