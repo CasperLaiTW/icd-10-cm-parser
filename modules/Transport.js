@@ -15,7 +15,7 @@ class Transport extends Generator {
   }
 
   get menus() {
-    const firstRow = this.rows.shift();
+    const firstRow = this.firstRow;
     return {
       pedestrian: firstRow[5],
       pedestrianDetail: firstRow[6],

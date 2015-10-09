@@ -13,6 +13,7 @@ export default class Generator {
     this.title = title;
     this.output = output;
     this.rows = this.getRows();
+    this.firstRow = this.rows.shift();
   }
 
   getRows () {
