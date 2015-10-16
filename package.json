@@ -1,6 +1,6 @@
 {
   "name": "icd-10-cm-parser",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Parse icd 10 cm excel to json.",
   "main": "index.js",
   "scripts": {

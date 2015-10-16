@@ -51,7 +51,7 @@ class Other extends Generator {
   }
 
   _compileType() {
-    this.medical = this.compile(6);
+    this.type = this.compile(6);
   }
 
   _compileReason() {
