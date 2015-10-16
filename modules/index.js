@@ -7,3 +7,4 @@ export Unspecified from './Unspecified';
 export Drowning from './Drowning';
 export SelfHarm from './SelfHarm';
 export Exposure from './Exposure';
+export Other from './Other';
